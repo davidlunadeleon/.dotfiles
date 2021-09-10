@@ -1,0 +1,5 @@
+[".config/polybar/polybar-spotify"]
+	type = "archive"
+	url = "https://github.com/Jvanrhijn/polybar-spotify/archive/master.tar.gz"
+	exact = true
+	stripComponents = 1
