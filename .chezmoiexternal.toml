@@ -3,3 +3,8 @@
 	url = "https://github.com/Jvanrhijn/polybar-spotify/archive/master.tar.gz"
 	exact = true
 	stripComponents = 1
+[".oh-my-zsh/custom/themes/powerlevel10k"]
+	type = "archive"
+	url = "https://github.com/romkatv/powerlevel10k/archive/master.tar.gz"
+	exact = true
+	stripComponents = 1
