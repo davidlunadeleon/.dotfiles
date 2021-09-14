@@ -8,3 +8,11 @@
 	url = "https://github.com/romkatv/powerlevel10k/archive/master.tar.gz"
 	exact = true
 	stripComponents = 1
+[".config/kitty/kitty-themes"]
+	type = "archive"
+	url = "https://github.com/dexpota/kitty-themes/archive/master.tar.gz"
+	exact = true
+	stripComponents = 1
+[".config/kitty/nord.conf"]
+	type = "file"
+	url = "https://raw.githubusercontent.com/connorholyday/nord-kitty/master/nord.conf"
