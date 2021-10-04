@@ -107,6 +107,7 @@ fi
 alias gcc="gcc -Wall -Wextra -pedantic-errors"
 alias g++="g++ -Wall -Wextra -pedantic-errors"
 alias cpwd="pwd | xclip -selection c"
+alias gur="git checkout master && git fetch && git remote prune origin && git pull --ff-only"
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
