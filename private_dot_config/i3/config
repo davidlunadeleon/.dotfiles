@@ -231,3 +231,9 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# For zoom
+for_window [class="zoom"] floating enable
+for_window [title="Zoom Meeting"] floating disable
+for_window [title="Zoom - Free Account"] floating disable
+no_focus [class="zoom"]
