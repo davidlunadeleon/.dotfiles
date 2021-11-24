@@ -128,3 +128,5 @@ source $ZSH/oh-my-zsh.sh
 
 fpath=(~/.stripe $fpath)
 autoload -Uz compinit && compinit -i
+
+source /usr/share/nvm/init-nvm.sh
