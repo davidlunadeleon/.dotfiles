@@ -194,7 +194,7 @@ bindsym $mod+r mode "resize"
 #}
 
 bindsym $mod+x exec rofi -show run
-bindsym $mod+period exec rofi -show emoji -modi emoji
+bindsym $mod+period exec rofi -show emoji -modi "emoji:rofimoji"
 
 #Enable gaps
 
