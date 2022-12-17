@@ -220,8 +220,7 @@ bindsym Shift+Print exec maim ~/Pictures/Screenshots/$(date +%s).png
 mouse_warping none
 
 # Lockscreen controls
-exec --no-startup-id betterlockscreen -w blur
-bindsym $mod+shift+x exec betterlockscreen -l blur
+bindsym $mod+shift+x exec betterlockscreen -l
 
 # Launch picom
 exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
@@ -239,3 +238,5 @@ for_window [title="Zoom - Free Account"] floating disable
 no_focus [class="zoom"]
 
 exec dex -ae i3
+
+exec --no-startup-id source ~/.fehbg
