@@ -198,14 +198,10 @@ bindsym $mod+period exec rofi -show emoji -modi "emoji:rofimoji"
 
 #Enable gaps
 
-for_window [class=".*"] border pixel 0
+default_border pixel 4
 
 gaps outer 5
 gaps inner 10
-
-#Border for the focused window
-
-for_window [class="^.*"] border pixel 3
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
