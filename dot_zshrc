@@ -107,6 +107,7 @@ fi
 alias gcc="gcc -Wall -Wextra -pedantic-errors"
 alias g++="g++ -Wall -Wextra -pedantic-errors"
 alias cpwd="pwd | xclip -selection c"
+alias gdnvim="nvim --listen ./godothost"
 
 # Git aliases
 alias gur="gcm && gf && gr prune origin && git pull --ff-only"
