@@ -121,6 +121,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 export PATH="$HOME/.local/bin:$HOME/.cabal/bin:$PATH"
+export GPG_TTY=$(tty)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -130,3 +131,5 @@ source $ZSH/oh-my-zsh.sh
 autoload -Uz compinit && compinit -i
 
 source /usr/share/nvm/init-nvm.sh
+
+eval "$(zoxide init --cmd cd zsh)"
