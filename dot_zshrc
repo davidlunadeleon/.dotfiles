@@ -130,6 +130,13 @@ source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit && compinit -i
 
+# source nvm
 source /usr/share/nvm/init-nvm.sh
 
+# zoxide use cd instead of z
 eval "$(zoxide init --cmd cd zsh)"
+
+# pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
